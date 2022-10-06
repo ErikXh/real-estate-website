@@ -1,0 +1,8 @@
+https://images.pexels.com/photos/164572/pexels-photo-164572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 -> home img 1
+
+https://images.unsplash.com/photo-1524026986132-000404263b59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 -> home img 2
+
+https://unsplash.com/photos/FAhAg0aT6ro -> discover1
+https://unsplash.com/photos/DyFjxmHt3Es -> discover2
+https://unsplash.com/photos/ylyn5r4vxcA -> dicover3
+https://unsplash.com/photos/eHD8Y1Znfpk -> discover5

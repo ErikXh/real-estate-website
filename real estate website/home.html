@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InEstates- Your one stop property comparison site</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://images.pexels.com/photos/7013726/pexels-photo-7013726.jpeg?auto=compress&cs=tinysrgb&w=300">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <nav class="navbar color-nav_transparent" id="nav">
+
+            <h1 class="logo font-normal color-white font-fam">
+                InEstates
+            </h1>
+
+            <div class="nav-hidden" id="menu"> 
+
+                <div><i class="ri-close-line close-btn" id="close-btn"></i></div>
+                
+              <ul class="nav-ul" >
+                <li class="nav-links "><a href="#home" class="nav-links font-fam font-l">Home</a></li>
+                <li class="nav-links "><a href="#discover" class="nav-links font-fam font-l">Discover</a></li>
+                <li class="nav-links "><a href="#commisions" class="nav-links font-fam font-l">Commisions</a></li>
+                <li class="nav-links "><a href="#blog" class="nav-links font-fam font-l" >Blog</a></li>
+                <li class="nav-links "><a href="#contact" class="nav-links font-fam font-l" >Contact</a></li>
+                <li class="nav-links action-btn-space"><input type="button" value="Log in" class="action-btn color-white font-fam font-normal"></li>
+                <li class="nav-links action-btn-space"><input type="button" value="Sign up" class="action-btn color-white font-fam font-normal"></li>
+              </ul>
+
+           </div>
+
+            <div class="menu-btn-container">
+                <i class="ri-menu-3-line menu-icon color-white" id="open-btn"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME section -->
+    <section id="home">
+
+     <div class="home-container">
+
+        <div class="img-container home-img">
+            
+           <div class="home-text-container">
+           <h1 class="home-text font-fam font-xxl font-normal color-white">Find the <span class="home-text-color">best property</span> for your in your City!</h1>
+           </div>
+
+           <div class="form-container">
+            <form action="#" method="get" class="form-style">
+                 <!-- location-->
+                 <label for="Location" class="input-text color-white font-l"><i class="ri-map-pin-2-line home-icon"></i><span class="font-fam">Location :</span></label>
+                  <select name="options" id="location" class="form-data">
+                    <optgroup>
+                        <option value="Tirana" class="intput-options"><p class="font-fam">Tirana</p></option>
+                        <option value="Elbasan" class="intput-options">Elbasan</option>
+                        <option value="Durres" class="intput-options">Durres</option>
+                        <option value="Shkoder" class="intput-options">Shkoder</option>
+                        <option value="Vlore" class="intput-options">Vlore</option>
+                        <option value="Sarande" class="intput-options">Sarande</option>
+                    </optgroup>
+                  </select>
+                
+                 <!-- type -->
+                 <label for="type" class="input-text color-white font-l"><i class="ri-building-2-line home-icon"></i> <span class="font-fam">Type : </span> </label>
+                  <select name="options" id="type" class="form-data">
+                    <optgroup>
+                        <option value="Apartment" class="intput-options">Apartments</option>
+                        <option value="Villa" class="intput-options">Villas</option>
+                        <option value="Warehouse" class="intput-options">Warehouses</option>
+                        <option value="Land" class="intput-options">Land</option>
+                        <option value="Commertial" class="intput-options">Commertial</option>
+                        <option value="Office" class="intput-options">Offices</option>
+                    </optgroup>
+                  </select>
+                  
+                <!-- status -->
+                 <label for="status" class="input-text color-white font-l"> <i class="ri-flag-2-line home-icon"></i> <span class="font-fam">Status : </span> </label>
+                  <select name="options" id="type" class="form-data">
+                    <optgroup>
+                        <option value="forRent" class="intput-options">Rent</option>
+                        <option value="Buy" class="intput-options">Buy</option>
+                    </optgroup>
+                  </select>
+                  <!-- button-->
+                  <div class="btn-container">
+                 <input type="button" value="Search" class="form-btn font-l font-fam font-bold">
+                </div>
+            </form>
+           </div>
+         </div>
+        </div>
+    </section>
+
+    <!-- Discover section-->
+
+    <section class="section" id="discover">
+
+      <div class="discover-container">
+
+          <div class="discover-text-container">
+            <h1 class="font-fam font-bold">Discover</h1>
+          </div>
+          <div class="underline"></div>
+
+          <div class="discover-card-container">
+
+            <!-- Card 1 -->
+            <div class="discover-card">
+              <div class="discover-img_container">
+               <img src="img/rsz_1discover1.jpg" alt="" class="discover-img">
+              </div>
+             <div class="discover-data">
+              <a href="#">
+                <h2 class="discover-property-text color-black font-fam font-l">
+                Apartments <i class="ri-arrow-right-circle-line icon"></i>
+              </h2>
+              </a> 
+             </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="discover-card">
+              <div class="discover-img_container">
+                <img src="img/rsz_discover2.jpg" alt="" class="discover-img">
+               </div>
+                  <div class="discover-data">
+                   <a href="#">
+                   <h2 class="discover-property-text color-black font-fam font-l">
+                     Offices <i class="ri-arrow-right-circle-line icon"></i>
+                   </h2>
+                  </a> 
+                  </div>
+            </div>
+
+             <!-- Card 3 -->
+                <div class="discover-card">
+                  <div class="discover-img_container">
+                    <img src="img/rsz_1discover3.jpg" alt="" class="discover-img">
+                     </div>
+                      <div class="discover-data">
+                       <a href="#">
+                      <h2 class="discover-property-text color-black font-fam font-l">
+                        Villas <i class="ri-arrow-right-circle-line icon"></i>
+                      </h2>
+                      </a> 
+                  </div>
+              </div>
+
+             <!-- Card 4 -->
+             <div class="discover-card">
+              <div class="discover-img_container">
+                <img src="img/rsz_discover4.jpg" alt="" class="discover-img">
+                 </div>
+                  <div class="discover-data">
+                   <a href="#">
+                  <h2 class="discover-property-text color-black font-fam font-l">
+                    Land <i class="ri-arrow-right-circle-line icon"></i>
+                  </h2>
+                  </a> 
+              </div>
+          </div>
+
+             <!-- Card 5 -->
+             <div class="discover-card">
+              <div class="discover-img_container">
+                <img src="img/rsz_discover51.jpg" alt="" class="discover-img">
+                 </div>
+                  <div class="discover-data">
+                   <a href="#">
+                  <h2 class="discover-property-text color-black font-fam font-l">
+                    Commertial <i class="ri-arrow-right-circle-line icon"></i>
+                  </h2>
+                  </a> 
+              </div>
+          </div>
+
+             <!-- Card 6 -->
+             <div class="discover-card">
+              <div class="discover-img_container">
+                <img src="img/rsz_discover6.jpg" alt="" class="discover-img">
+                 </div>
+                  <div class="discover-data">
+                   <a href="#">
+                  <h2 class="discover-property-text color-black font-fam font-l">
+                    Warehouses <i class="ri-arrow-right-circle-line icon"></i>
+                  </h2>
+                  </a> 
+              </div>
+          </div>
+
+          </div>
+      </div>
+    </section>
+
+    <!-- Commisions section -->
+
+    <section class="section" id="commisions">
+
+      <div class="commisions-container">
+
+        <div class="discover-text-container">
+          <h1 class="font-fam font-bold">Commisions</h1>
+        </div>
+        <div class="underline"></div>
+
+        <div class="commisions-car_container">
+
+          <!--  -->
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Blog -->
+
+    <!-- Newsletter -->
+
+    <!-- Contact -->
+
+    <!-- Footer-->
+    
+    <script src="Js/script.js"></script>
+</body>
+</html>
